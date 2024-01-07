@@ -1,0 +1,9 @@
+FROM alpine
+RUN apk update && apk add firefox
+USER kiryu
+ENV HOME /home/kiryu
+CMD /usr/bin/firefox
+
+
+
+
