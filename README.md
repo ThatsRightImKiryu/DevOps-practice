@@ -1,5 +1,5 @@
 <h3>Yandex Cloud Course "Cloud Engineer"</h3>
-	<b>Begging of course "Cloud engineer"</b>
+	<b>Begging of course "Cloud engineer"</b> </br>
 		<i>Learnt basics of:</i>
 		<ul>
 			<li>Creating VMs and connection to them;</li>

@@ -1,0 +1,3 @@
+*.crt
+*.pem
+mysql_connection.py

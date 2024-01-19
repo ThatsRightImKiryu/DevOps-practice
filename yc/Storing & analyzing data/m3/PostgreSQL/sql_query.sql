@@ -1,0 +1,7 @@
+CREATE table IF NOT EXISTS Users (
+	user_id SERIAL PRIMARY KEY,
+	login   VARCHAR(20) NOT NULL
+);
+
+SELECT * FROM Users;
+
