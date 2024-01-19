@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
 <style>
     h2 {
         color: rgb(10, 255, 255);
@@ -55,8 +56,6 @@
     }
 
 </style>
-</head>
-<body>
 <h2>Reporting of Module II "YC Introduction"</h2></br>
 
 <h3><u>Creating VMs</u></h3>
@@ -102,5 +101,6 @@
 
 <h2>Summarization</h2>
 <p>This module is a introduction to YC, so it's so simple to create VM and to switch between pages and services. Adding metadata allows to bring some additional information to vm and other object stroing in cloud. Also serial console has some extra connection for VM.</p>
-</body>
-</html>
+    </div>
+  </foreignObject>
+</svg>
