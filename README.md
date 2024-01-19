@@ -1,4 +1,4 @@
-<h3>Yandex Cloud Course "Cloud Engineer"</h3>
+	<h3>Yandex Cloud Course "Cloud Engineer"</h3>
 	<b>Begging of course "Cloud engineer"</b> </br>
 		<i>Learnt basics of:</i>
 		<ul>
@@ -14,6 +14,7 @@
 			<li>Creating and configuring object storage;</li>
 		</ul>
 
+
 <h3>Zabbix</h3>
 It is a system solution for monitoring servers. </br>
 The architecture consists of:
@@ -25,12 +26,11 @@ The architecture consists of:
 	<li>DB.</li>
 </ul>
 
-<pre>
-Zabbix is <u>lightweight</u>, easy to configure initially, and has powerful functionality when working with distributed monitoring.
-For example, using Pacemaker/Corosync, DRBD together to manage nodes.
-Or use encryption via ssh.
-</pre>
-
+<p>
+	Zabbix is <u>lightweight</u>, easy to configure initially, and has powerful functionality when working with distributed monitoring.</br>
+	For example, using Pacemaker/Corosync, DRBD together to manage nodes.</br>
+	Or use encryption via ssh.</br>
+</p>
 But Zabbix has several <i>disadvantages</i>:
 <ol type="1">
 	<li>No encryption; Fixed by protocols like ssh;</li>
