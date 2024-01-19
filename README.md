@@ -26,11 +26,11 @@ The architecture consists of:
 		<li>DB.</li>
 	</ul>
 
-	<p>
-		Zabbix is <u>lightweight</u>, easy to configure initially, and has powerful functionality when working with distributed monitoring.</br>
-		For example, using Pacemaker/Corosync, DRBD together to manage nodes.</br>
-		Or use encryption via ssh.</br>
-	</p>
+<p>
+	Zabbix is <u>lightweight</u>, easy to configure initially, and has powerful functionality when working with distributed monitoring.</br>
+	For example, using Pacemaker/Corosync, DRBD together to manage nodes.</br>
+	Or use encryption via ssh.</br>
+</p>
 But Zabbix has several <i>disadvantages</i>:
 	<ol type="1">
 		<li>No encryption; Fixed by protocols like ssh;</li>
