@@ -1,3 +1,5 @@
+<html>
+<head>
 <style>
     h2 {
         color: rgb(10, 255, 255);
@@ -52,7 +54,8 @@
     }
 
 </style>
-
+</head>
+<body>
 <h2>Reporting of Module II "YC Introduction"</h2></br>
 
 <h3><u>Creating VMs</u></h3>
@@ -98,3 +101,5 @@
 
 <h2>Summarization</h2>
 <p>This module is a introduction to YC, so it's so simple to create VM and to switch between pages and services. Adding metadata allows to bring some additional information to vm and other object stroing in cloud. Also serial console has some extra connection for VM.</p>
+</body>
+</html>
