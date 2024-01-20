@@ -14,4 +14,4 @@
 		<li>Creating and configuring object storage;</li>
 	</ul>
 
-[Zabbix in summary](Zabbix/REPORT.md)
+[Zabbix](REPORT.md)
