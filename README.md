@@ -1,3 +1,6 @@
+It's a repo for my practicing DevOps stuff.</br>
+To read the whole synopsis of each topics follow [DOCS](docs/REPORTS.md).</br>
+
 <h3>Yandex Cloud Course "Cloud Engineer"</h3>
 <b>Begging of course "Cloud engineer"</b> </br>
 	<i>Learnt basics of:</i>
@@ -13,5 +16,3 @@
 		<li>Creating clusters;</li>
 		<li>Creating and configuring object storage;</li>
 	</ul>
-
-[Zabbix](REPORT.md)
