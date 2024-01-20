@@ -1,5 +1,5 @@
 It's a repo for my practicing DevOps stuff.</br>
-To read the whole synopsis of each topics follow [DOCS](docs/REPORTS.md).</br>
+To read the whole synopsis of each topics follow [DOCS](docs/REPORTS.md#zabbix).</br>
 
 <h3>Yandex Cloud Course "Cloud Engineer"</h3>
 <b>Begging of course "Cloud engineer"</b> </br>
