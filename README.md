@@ -1,41 +1,68 @@
-# _It's a repo for my practicing DevOps stuff._
+<div style="width:100%;
+			color: azure;
+        	text-align: center;
+			">
 
-<h3 style="font-weight:1000">Yandex Cloud Course "Cloud Engineer"</h3>
-<b>Begging of course "Cloud engineer"</b> </br>
-	<i>Learnt basics of:</i>
-	<ul>
-		<li>Creating VMs and connection to them;</li>
-		<li>Creating recovery of disk and VMs;</li>
-		<li>Creating taget groups and instance groups;</li>
-		<li>Networking: IPs, routing;</li>
-		<li>Load balancing(interesting one).</li>
-	</ul>
-<b>Data Analyze in "Cloud engineer"</b>
-	<ul>
-		<li>Creating clusters;</li>
-		<li>Creating and configuring object storage;</li>
-	</ul>
+# __DevOps Practicing Repo__
 
+</div>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%97a4fff7&lines=General+Description)](https://git.io/typing-svg)
+
+It's a repo for my practicing DevOps stuff.
+
+My main target specialization is to learn Docker(Compose, Dockerfile, CLI),
+Yandex Cloud(Administrating cloud storages and instances using their own free course), Ansible(creating playbooks), Terraform(creating instances in more efficient way), Zabbix(architecture and basics), CI/CD(GitHub Actions, GitLab CI.yml).
+
+Also have a strong confidence in TCP/IP network model through all of the levels learning with Cisco Packet Tracer troubleshooting.
+
+> [!IMPORTANT]
+> Studing Yandex Cloud and DevOps techniques on my own.
+
+#
+
+## Yandex Cloud Course "Cloud Engineer"
+
+__Beginning__
+
+_Learnt basics of:_
++ Creating VMs and connecting to them;
++ Creating recovery of disk and VMs;
++ Creating taget groups and instance groups;
++ Networking: IPs, routing;
++ Load balancing(interesting one).
+
+__Data Analyze__
+
+_This topic consists of:_
+
++ Creating clusters;
++ Creating and configuring object storage;
+
+#
+
+## Zabbix
 It is a system solution for monitoring servers. </br>
 
 The architecture consists of:
-<ul>
-	<li>Server;</li>
-	<li>Web interface;</li>
-	<li>Proxy;</li>
-	<li>Agent (optional);</li>
-	<li>DB.</li>
-</ul>
++ Server;
++ Web interface;
++ Proxy;
++ Agent (optional);
++ DB.
 
-<p style="font-weight:100">
-	Zabbix is <u>lightweight</u>, easy to configure initially, and has powerful functionality when working with distributed monitoring.</br>
-	For example, using Pacemaker/Corosync, DRBD together to manage nodes.</br>
-	Or use encryption via ssh.</br>
-</p>
-But Zabbix has several <i>disadvantages</i>:
-	<ol type="1">
-		<li>No encryption; Fixed by protocols like ssh;</li>
-		<li>Requires heavy configuration to increase functionality. For example, setting up high availability clusters;</li>
-		<li>When working, it requires the deployment of more complex databases, such as PostgreSQL or MySQL;</li>
-		<li>The database also requires partitioning to store monitoring data and process it faster.</li>
-	</ol>
+Description:
+
+Zabbix is lightweight, easy to configure initially, and has powerful functionality when working with distributed monitoring.
+For example, using Pacemaker/Corosync, DRBD together to manage nodes.
+Or use encryption via ssh.
+
+
+But Zabbix has several _disadvantages_:
+
+1. No encryption; Fixed by protocols like __ssh__;
+2. Requires heavy configuration to increase functionality. For example, setting up __high availability clusters__;
+3. When working, it requires the deployment of more complex databases, such as __PostgreSQL__ or __MySQL__;
+4. The database also requires __partitioning__ to store monitoring data and process it faster.
+
+#
