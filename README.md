@@ -17,7 +17,7 @@ Yandex Cloud(Administrating cloud storages and instances using their own free co
 Also have a strong confidence in TCP/IP network model through all of the levels learning with Cisco Packet Tracer troubleshooting.
 
 > [!IMPORTANT]
-> Studing Yandex Cloud and DevOps techniques on my own.
+> Studing DevOps techniques on my own.
 
 #
 
