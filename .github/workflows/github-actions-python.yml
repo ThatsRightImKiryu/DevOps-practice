@@ -20,7 +20,7 @@ jobs:
         run: python3 -c "import sys; print(sys.version)"
 
       - name: Change dir to work
-        run: cd ci-cd/python/H-index/test.py
+        run: cd ci-cd/python/H-index/
 
       - name: Run python tests
         run: python3 -m unittest test.py
