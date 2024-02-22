@@ -1,0 +1,23 @@
+name: Github action Python
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
+jobs:
+  h-index:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        python-version: ["3.11.1"]
+    
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          
+      - name: Display Python version
+        run: python3 -c "import sys; print(sys.version)"
+
+      - name: Run python tests
+        run: python3 -m unittest ci-cd/python/H-index/test.py
