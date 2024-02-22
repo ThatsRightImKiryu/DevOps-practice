@@ -1,5 +1,5 @@
 import unittest
-from src.solution import Solution
+from cicd.python.Hindex.src.solution import Solution
 
 class SquareEqSolverTestCase(unittest.TestCase):
     

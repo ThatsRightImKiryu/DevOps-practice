@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 echo "Введите run для обычного запуска или test для запуска тестов"
-
-for i in tests/*.py; do
+for i in cicd/python/Hindex/tests/*.py; do
     echo -e $"\n====Run test: $i===="
     python3 -m unittest $i
 done
