@@ -2,3 +2,4 @@
 *.pem
 mysql_connection.py
 yc/train/
+/terraform/.terraform*
