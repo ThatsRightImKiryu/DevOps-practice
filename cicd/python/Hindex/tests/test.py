@@ -5,7 +5,7 @@ class SquareEqSolverTestCase(unittest.TestCase):
     
     def test_zero(self):
        res = Solution().hIndex([0])
-       self.assertEqual(res, 1)
+       self.assertEqual(res, 0)
     
     def test_one(self):
        res = Solution().hIndex([1])
