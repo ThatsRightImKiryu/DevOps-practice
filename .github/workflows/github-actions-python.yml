@@ -19,5 +19,8 @@ jobs:
       - name: Display Python version
         run: python3 -c "import sys; print(sys.version)"
 
+      - name: Change dir to work
+        run: cd ci-cd/python/H-index/test.py
+
       - name: Run python tests
-        run: python3 -m unittest ci-cd/python/H-index/test.py
+        run: python3 -m unittest test.py
