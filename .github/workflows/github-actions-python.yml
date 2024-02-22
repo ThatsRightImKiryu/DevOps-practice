@@ -2,9 +2,10 @@ name: Github action Python
 run-name: ${{ github.actor }} is learning GitHub Actions
 on:
   push:
+    branches-ignore:
+      - bad_branch
+  pull_request:
     branches:
-      - "**"
-    pull_request:
       - main
 jobs:
   h-index:
