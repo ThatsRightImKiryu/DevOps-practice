@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+
+while [ -n "$1" ]; do
+    case $1 in
+    -a) echo "all";;
+    -b) echo "some b";;
+    -c) echo -n "Enter bomb: "; read bomb;;
+    -p) echo "You entered parameter for -p flag=$2";;
+    --) shift; break;;
+    esac
+    shift
+done
+
+echo "============================" 
+
+count=1
+echo "You enter some simple parametres:"
+for param in $@; do
+    echo "Parameter №$count=$param"
+    count=$(($count+1))
+done

@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+str1="aloha"
+str2="aloh"
+
+if [ $str1 \> $str2 ]; then
+    echo "Comparing done"
+fi

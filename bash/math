@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+res=$((1+2))
+echo $res
+
+N=30
+for i in {1..35}; do
+	if [ $(( ($i-1)*($i-1) )) \< $(( $i*$i )) ]; then
+		echo "$(( ($i-1)*($i-1))) and $(($i*$i))"
+	fi
+done

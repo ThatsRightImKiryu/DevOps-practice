@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+yc compute instance list --format=json | \
+	jq '.[].name' | \
+	grep "$2" | \
+	xargs -n 1 \
+	yc compute instance $1

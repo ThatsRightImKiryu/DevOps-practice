@@ -8,21 +8,21 @@ fi
 
 
 if [ $1=="run" ]; then
-psql    "host=rc1b-bxgarpq3m5a18m7y.mdb.yandexcloud.net \
+psql    "host=rc1b-t9vfa7mrcdquy0qc.mdb.yandexcloud.net \
 	port=6432 \
 	sslmode=verify-full \
-	dbname=db1 \
+	dbname=grey-castle \
 	user=user \
 	target_session_attrs=read-write" \
 
 else
 
-psql    "host=rc1b-bxgarpq3m5a18m7y.mdb.yandexcloud.net \
-	port=6432 \
-	sslmode=verify-full \
-	dbname=db1 \
-	user=user \
-	target_session_attrs=read-write" \
-	-f $sql_file \
+psql "host=rc1b-t9vfa7mrcdquy0qc.mdb.yandexcloud.net \
+    port=6432 \
+    sslmode=verify-full \
+    dbname=grey-castle \
+    user=user \
+    target_session_attrs=read-write \
+	-f $sql_file" \
 	-v login="$2"
 fi
