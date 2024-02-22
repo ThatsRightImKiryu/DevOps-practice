@@ -4,8 +4,8 @@ on:
   push:
     branches-ignore:
       - bad_branch
-    pull_request:
-      - main
+  pull_request:
+    - main
 jobs:
   h-index:
     runs-on: ubuntu-latest
