@@ -2,4 +2,5 @@
 *.pem
 mysql_connection.py
 yc/train/
-/terraform/**/.terraform*
+terraform/**/.terraform*
+cicd/gitlab/
